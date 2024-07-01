@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+}
+.top1{
+    padding: 50px 0;
+    margin: 0 10%;
+.top1a{
+    display: flex;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    h1{
+        font-size: 40px;
+        font-style: normal;
+    }
+}
+}
+.top2{
+    background-image: url(banner-topo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    .top2a{
+        background-color: rgba(221, 221, 221, 0.719);
+        position: absolute;
+        left: 350px;
+        bottom: 10px;
+        width: 800px;
+        height: 400px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px darkgrey;
+        h1{
+            padding: 30px 20px 150px 20px;
+            font-size: 50px;
+        }
+        button{
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            padding: 20px;
+            font-size: 30px;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    }
+}
+.top3{
+    margin: 0 22%;
+    padding: 50px 0;
+    h1{
+        padding-bottom: 20px;
+    }
+    li{
+        padding: 15px 0;
+        font-size: 23px;
+    }
+    span{
+        font-weight: bold;
+    }
+    img{
+        box-shadow: 10px 10px 10px grey;
+        padding: 0 3px;
+    }
+}
+.top4, .top6{
+    text-align: center;
+    padding: 60px 0;
+    img{
+        width: 60px;
+        padding: 20px 10px;
+    }
+}
+.top5{
+    text-align: center;
+    margin: 0 27%;
+    padding: 70px 0;
+    h1{
+        padding: 30px 0;
+    }
+    img{
+        padding: 0 10px;
+    }
+}
+.top7{
+    text-align: center;
+    padding: 50px 0;
+    h1{
+        padding-bottom: 20px;
+    }
+    iframe{
+        width: 600px;
+        padding: 20px 0;
+    }
+}
+.top8{
+    font-size: 10px;
+    text-align: center;
+}
+.top1, .top2, .top3, .top4, .top5, .top7{
+    color: purple;
+}
+.top4,.top6,.top8{
+    background-color: blueviolet;
+    color: white;
+}
